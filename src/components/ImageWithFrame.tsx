@@ -14,7 +14,7 @@ export function ImageWithFrame({ selectedBreed }: imageWithFrameProps) {
     <div>
       {data && (
         <img
-          className="h-40 rounded-sm border-2 border-black shadow-md"
+          className="h-40 rounded-lg border-2 border-black shadow-md"
           src={data}
           alt=""
         />
